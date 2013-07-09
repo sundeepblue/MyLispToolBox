@@ -16,4 +16,4 @@
 (defun remu2 (lis elem)
   (cond ((null lis) nil)
  	((equal (first lis) elem) (rest lis))
-		(t (cons (first lis) (remu2 (rest lis) elem)))))
+	(t (cons (first lis) (remu2 (rest lis) elem)))))
